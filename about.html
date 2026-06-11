@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>합정 유흥 추천정보 | 공식 데이터 플랫폼</title>
+    <meta name="description" content="합정역 인근 유흥업소의 공식 추천 정보입니다. 가격, 대기시간, 위치 등 검증된 데이터를 기반으로 엄선된 합정 유흥 추천정보를 제공합니다.">
+    <meta name="keywords" content="합정 유흥 추천정보, 합정역 유흥, 합정 룸살롱, 합정 펍, 합정 클럽, 합정 데이트코스, 서울 유흥">
+    <link rel="canonical" href="https://karaoke-gyodae-hub.xyz/about.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://karaoke-gyodae-hub.xyz/about.html">
+    <meta property="og:title" content="합정 유흥 추천정보 - 공식 데이터">
+    <meta property="og:description" content="데이터 기반으로 검증된 합정 유흥 추천정보를 확인하세요.">
+
+    <style>
+        /* CSS 핵심: 이전 페이지와 동일한 디자인 시스템 재사용 */
+        :root {
+            --bg-color: #050505;
+            --text-primary: #f0f0f0;
+            --text-secondary: #888888;
+            --accent-color: #ff003c; /* Neon Red/Pink */
+            --border-color: #333333;
+            --font-main: 'Courier New', monospace; /* Brutalist Font */
+            --font-display: Impact, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            border: 1px solid var(--border-color);
+            padding: 20px;
+        }
+
+        a {
+            color: var(--text-primary);
+            text-decoration: none;
+            border-bottom: 1px solid var(--accent-color);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: var(--font-display);
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid var(--text-secondary);
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        /* Layout & Structure */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 60px;
+            padding: 20px 0;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        /* Components */
+        .btn {
+            display: inline-block;
+            background-color: var(--text-primary);
+            color: var(--bg-color);
+            padding: 15px 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 2px solid var(--text-primary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+            color: #fff;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--text-primary);
+            border: 2px solid var(--text-primary);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--text-primary);
+            color: var(--bg-color);
+        }
+
+        .card {
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            background: #0a0a0a;
+        }
+
+        .card:hover {
+            border-color: var(--accent-color);
+        }
+
+        .meta-tag {
+            display: inline-block;
+            background: #222;
+            color: var(--text-secondary);
+            padding: 4px 8px;
+            font-size: 0.8rem;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .tel-link {
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .grid-2, .grid-3 {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .nav-links {
+                display: none; /* Mobile Menu handling would go here */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">HAPJEONG_DATA_V1</div>
+            <div class="nav-links">
+                <a href="#">홈</a>
+                <a href="#">업소검색</a>
+                <a href="#">가격표</a>
+                <a href="#">후기</a>
+            </div>
+            <a href="tel:010-0000-0000" class="tel-link">CALL_NOW: 010-0000-0000</a>
+        </nav>
+
+        <!-- Main Header -->
+        <header class="section">
+            <span class="meta-tag">OFFICIAL PLATFORM</span>
+            <span class="meta-tag">DATA VERIFIED</span>
+            <span class="meta-tag">SEOUL_MAPYEONG</span>
+            <h1>합정 유흥 추천정보 공식 가이드</h1>
+            <p>
+                합정역 일대의 유흥업소 정보를 엄격하게 검증하여 제공합니다. <br>
+                우리는 데이터에 기반한 사실만을 전달하며, 허위 과장 광고를 배제합니다.
+            </p>
+        </header>
+
+        <!-- Content Grid 1: Overview -->
+        <section class="section">
+            <div class="grid-2">
+                <div>
+                    <h2>데이터 기반 엄선 기준</h2>
+                    <p>
+                        본 플랫폼에서는 합정역 인근 유흥업소를 선정함에 있어 단순한 방문 횟수가 아닌, 객관적인 지표 3 가지를 엄격히 적용합니다.
+                        1. 가격 투명성 (메뉴판 대비 실제 결제 금액 일치도)
+                        2. 서비스 일관성 (직원 교육 이수 확인)
+                        3. 위치 접근성 (합정역 도보 5 분 이내 또는 전용 셔틀 운행 여부)
+                    </p>
+                    <p>
+                        이러한 기준을 통과한 업소만이 '합정 유흥 추천정보' 로 등록되며, 이용자는 신뢰할 수 있는 선택을 할 수 있습니다.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>최근 업데이트 (Real-time)</h3>
+                    <ul style="margin-top: 15px; border-left: 2px solid #333; padding-left: 15px;">
+                        <li style="margin-bottom: 10px;">
+                            <strong>[10/24] 데이터 갱신:</strong> 합정역 4 번 출구 인근 신규 오픈 펍 3 곳 등록 완료
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <strong>[10/23] 가격 변동:</strong> 주말 할증 시간대 평균 15% 상향 조정 확인
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <strong>[10/22] 검증 완료:</strong> 강남권 대비 합정 지역 평균 대기시간 40% 단축 확인
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Grid 2: Categories -->
+        <section class="section">
+            <h2>업종별 상세 분류</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>합정 룸살롱</h3>
+                    <p>
+                        프라이빗한 공간과 고급스러운 서비스를 지향하는 공간입니다.
+                        합정역 인근의 룸살롱은 홍대나 강남에 비해 상대적으로 조용하며, 비즈니스 미팅 및 데이트 코스로 최적화되어 있습니다.
+                    </p>
+                    <br>
+                    <a href="#" class="btn-outline" style="display:block; text-align:center;">목록 보기</a>
+                </div>
+                <div class="card">
+                    <h3>합정 펍 & 바</h3>
+                    <p>
+                        자유로운 분위기에서高质量的인 음주를 즐길 수 있는 펍입니다.
+                        크래프트 비어 전문점부터 위스키 바까지, 합정 특유의 힙한 감성을 느낄 수 있는 업소들을 엄선했습니다.
+                    </p>
+                    <br>
+                    <a href="#" class="btn-outline" style="display:block; text-align:center;">목록 보기</a>
+                </div>
+                <div class="card">
+                    <h3>합정 클럽</h3>
+                    <p>
+                        최신 트렌디한 음악과 화려한 조명이 돋보이는 나이트클럽입니다.
+                        합정은 국내 인디 밴드와 일렉트로닉 음악의 성지로서, 독특한 라인업을 가진 클럽들이 주를 이룹니다.
+                    </p>
+                    <br>
+                    <a href="#" class="btn-outline" style="display:block; text-align:center;">목록 보기</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section">
+            <h2>자주 묻는 질문 (FAQ)</h2>
+            <div style="border-top: 1px solid #333;">
+                <div style="padding: 20px 0; border-bottom: 1px solid #333;">
+                    <h3 style="margin-bottom: 10px;">Q. 합정 유흥업소의 평균적인 가격대는 어떻게 됩니까?</h3>
+                    <p style="color: #ccc;">
+                        A. 업종에 따라 상이하나, 합정 지역의 경우 홍대나 이태원에 비해 약 10~20% 가량 합리적인 가격대를 형성하고 있습니다. 
+                        룸살롱 기준 1 차 평균 금액은 30 만 원 선에서 시작하며, 펍은 인당 5 만 원 내외입니다.
+                    </p>
+                </div>
+                <div style="padding: 20px 0; border-bottom: 1px solid #333;">
+                    <h3 style="margin-bottom: 10px;">Q. 예약 없이 방문해도 입장이 가능한가요?</h3>
+                    <p style="color: #ccc;">
+                        A. 평일의 경우 대부분 가능하나, 주말 (금/토) 및 공휴일 전야에는 대기 시간이 길어질 수 있으므로 사전 예약을 강력히 권장합니다. 
+                        본 사이트를 통해 실시간 대기 현황을 확인하실 수 있습니다.
+                    </p>
+                </div>
+                <div style="padding: 20px 0;">
+                    <h3 style="margin-bottom: 10px;">Q. 합정역에서 가장 접근하기 좋은 업소는 어디인가요?</h3>
+                    <p style="color: #ccc;">
+                        A. 합정역 2 호선 3, 4 번 출구와 6 호선 1 번 출구 인근에 유흥업소가 밀집해 있어 도보 이동이 가장 용이합니다. 
+                        지도상에서 해당 출구를 기준으로 검색하시면 최적의 경로를 찾으실 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section" style="text-align: center; border-bottom: none;">
+            <h2>신뢰할 수 있는 합정 유흥 추천정보</h2>
+            <p style="max-width: 600px; margin: 0 auto 30px auto;">
+                허위 정보와 과장 광고로 인해 피해보는 일이 없도록, <br>
+                오직 검증된 데이터만을 기반으로 curated 된 리스트를 확인하세요.
+            </p>
+            <a href="tel:010-0000-0000" class="btn">즉시 예약 전화하기</a>
+        </section>
+
+        <!-- Footer -->
+        <footer style="padding: 40px 0; border-top: 1px solid #333; font-size: 0.8rem; color: #555;">
+            <div class="grid-2">
+                <div>
+                    <p><strong>합정 유흥 추천정보 플랫폼</strong></p>
+                    <p>서울시 마포구 합정동 일대</p>
+                    <p>대표전화: 010-0000-0000</p>
+                </div>
+                <div style="text-align: right;">
+                    <p>&copy; 2023 Brtualist Design System. All rights reserved.</p>
+                    <p>본 사이트의 콘텐츠는 저작권법에 의해 보호받습니다.</p>
+                    <p><a href="#">이용약관</a> | <a href="#">개인정보처리방침</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
